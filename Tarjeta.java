@@ -1,4 +1,4 @@
-/*
+/**
  * @author Raul Gonzalez Gonzalez
  * @version 3.5.1
  */
@@ -9,7 +9,7 @@ public class Tarjeta
     {
         saldo=0;
     }
-   /*
+   /**
     * @param metodo que recibe como parametro el dinero a depositar en la
     * cuenta.
     */
@@ -21,7 +21,7 @@ public class Tarjeta
         }
       
     }
-    /*
+    /**
     * @param metodo que recibe como parametro el dinero a retirar en la
     * cuenta.
     * @return regresa 0 en dado caso que no se acepto el retiro.
@@ -35,7 +35,7 @@ public class Tarjeta
         }
         else return 0;
     }
-    /*
+    /**
      * metodo de acceso que permite consultar el dinero disponible en la
      * cuenta.
      */
@@ -46,7 +46,7 @@ public class Tarjeta
             return saldo;
      
     }
-    /*
+    /**
     * @param metodo que recibe como parametro la cantidad a pagar y 
     * decrementa el saldo disponible.
     */
